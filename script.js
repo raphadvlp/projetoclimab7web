@@ -49,7 +49,7 @@ function showInfo(json) {
     document.querySelector('.ventoPonto').style.transform = `rotate(${json.windAngler-90}deg)`;
 
     document.querySelector('.resultado').style.display = 'block';
-    
+
 }
 
 function clearInfo() {
@@ -60,3 +60,6 @@ function clearInfo() {
 function showWarning(msg) {
     document.querySelector(".aviso").innerHTML = msg;
 }
+
+//Projeto de aluno para estudo: Repositório: https://github.com/matealves/weatherapp
+// Testar: https://matealves.github.io/weatherapp/
